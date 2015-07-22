@@ -2,12 +2,13 @@
   "name": "git-hooks",
   "description": "A tool to manage project Git hooks",
   "author": "Alexander Tarmolov <tarmolov@gmail.com>",
-  "version": "1.0.0-rc.4",
+  "version": "1.0.0-rc.5",
   "repository": "https://github.com/tarmolov/git-hooks-js",
   "contributors": [
     "Alexander Tarmolov <tarmolov@gmail.com> (http://tarmolov.ru/)",
     "Denis Khananein <i@zloylos.me> (http://zloy.me/)",
-    "Ikonnikov Konstantin"
+    "Ikonnikov Konstantin",
+    "Michael Blakeley <mike@blakeley.com> (http://blakeley.com/)"
   ],
   "bin": {
     "git-hooks": "./bin/git-hooks"
