@@ -17,8 +17,7 @@ if [ -z "$NODE" ]; then
   fi
 fi
 
-# The path is a little awkward.
-CMD="$PWD/.git/hooks/%s/../bin/git-hooks"
+CMD='%s/../bin/git-hooks'
 if [ -x "$CMD" ]; then
   "$CMD" --run $0 $2
 else
